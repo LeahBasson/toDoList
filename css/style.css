@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 24rem;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+h2{
+    font-family: 'Monsteratt',sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.enter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+#add{
+    background-color: rgb(130, 68, 130);
+    padding: 0.4rem 1.5rem;
+    color: white;
+    border: 1px solid white;
+}
+
+.item{
+    margin-top: 1rem;
+}
+
+
+.description{
+    padding: 0.1rem;
+    width: 16vw;
+}
+
+.listed-item{
+    padding: 0.3rem;
+    width: 16vw;
+}
+
